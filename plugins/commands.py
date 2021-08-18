@@ -73,12 +73,12 @@ You can also use /splay <song name> to play a song from Jio Saavn or /cplay <cha
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-        InlineKeyboardButton('🤖 Other Bots', url='https://t.me/subin_works/122'),
+        InlineKeyboardButton('⚙️ زوامل أنصار الله', url='https://t.me/zawamlansarallah'),
+        InlineKeyboardButton('🤖 زوامل عيسى الليث ', url='https://t.me/zwamlallaith'),
     ],
     [
-        InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/subinps'),
-        InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+        InlineKeyboardButton('👨🏼‍💻 جديد البوتات', url='https://t.me/yebotat'),
+        InlineKeyboardButton('🧩 مطور البوت ', url='https://github.com/subinps/odaygholy'),
     ],
     [
         InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
@@ -96,12 +96,12 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('🤖 Other Bots', url='https://t.me/subin_works/122'),
+            InlineKeyboardButton('⚙️ زوامل أنصار الله', url='https://t.me/zawamlansarallah'),
+            InlineKeyboardButton('🤖 زوامل عيسى الليث', url='https://t.me/zwamlallaith'),
         ],
         [
-            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/subinps'),
-            InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+            InlineKeyboardButton('👨🏼‍💻 مطور البوت', url='https://t.me/odaygholy'),
+            InlineKeyboardButton('🧩 جديد البوتات ', url='https://t.me/YeBotat'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
